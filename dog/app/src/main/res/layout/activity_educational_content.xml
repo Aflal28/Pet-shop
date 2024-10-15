@@ -1,0 +1,239 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6D614D35"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header Image -->
+        <ImageView
+            android:id="@+id/headerImage"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dog1" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0D1B3E"
+            android:textSize="24sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Introduction -->
+        <TextView
+            android:id="@+id/articleIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep your dog active with daily walks or playtime to maintain a healthy weight and mental well-being."
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif" />
+        <TextView
+            android:id="@+id/linkTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:autoLink="web"
+            android:textColorLink="@android:color/holo_blue_light"
+            />
+        <!-- Section 1: Pet Types -->
+        <TextView
+            android:id="@+id/sectionTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pets"
+            android:textColor="#0D1B3E"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/sectionContent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discover the different types of pets you can have, including dogs, cats, birds, fish, and more."
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif" />
+        <TextView
+            android:id="@+id/linkTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visit our website: https:https://www.akc.org/dog-breeds/"
+            android:autoLink="web"
+            android:textColorLink="@android:color/holo_blue_light"
+            />
+        <ImageView
+            android:id="@+id/petTypesImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/type" />
+
+        <!-- Section 2: Pet Care -->
+        <TextView
+            android:id="@+id/sectionTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tips"
+            android:textColor="#0D1B3E"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/sectionContent2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn how to take care of your pet, from feeding to grooming and regular check-ups."
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif" />
+        <TextView
+            android:id="@+id/linkTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visit our website: https:	https://www.youtube.com/lchnane/2P1igCzqIEQUa0GYBuDUBtMK    "
+            android:autoLink="web"
+            android:textColorLink="@color/buttonColor"
+            />
+        <ImageView
+            android:id="@+id/petCareImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dog" />
+
+        <!-- Section 3: Pet Health -->
+        <TextView
+            android:id="@+id/sectionTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maintaining Pet Health"
+            android:textColor="#0D1B3E"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/sectionContent3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Understand the importance of regular veterinary visits, vaccinations, and keeping your pet active."
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/linkTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visit our website: https:	https://www.youtube.com/lchnane/2P1igCzqIEQUa0GYBuDUBtMK    "
+            android:autoLink="web"
+            android:textColorLink="@color/buttonColor"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/petHealthImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dog_eating_food" />
+
+        <!-- Conclusion -->
+        <!-- Section 3: Pet Health -->
+        <TextView
+            android:id="@+id/sectionTitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maintaining Pet Health"
+            android:textColor="#0D1B3E"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+
+            />
+        <TextView
+            android:id="@+id/conclusion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Although dog food doesn't come in as many shapes, colors, sizes, and flavors as human food, there are still quite a few varieties to choose from. No matter which type you choose, the most important factor in your decision should be finding a food that meets all of your dog's nutritional needs.
+There are five main types of dog food:"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif" />
+
+        <ImageView
+            android:id="@+id/petfoodsimage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dogfood" />
+        <TextView
+            android:id="@+id/sectionTitle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What type of food is best for dogs?"
+            android:textColor="#0D1B3E"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+
+            />
+        <TextView
+            android:id="@+id/patfoodpacket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="While meat makes up the majority of their diet, domestic dogs can also derive nutrients from grains, fruits, and vegetables. These non-meat foods aren't simply fillers, but can be a valuable source of essential vitamins, minerals, and fiber. A good dog food will contain meat, vegetables, grains, and fruits."
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif" />
+        <!-- Button for More Resources -->
+        <Button
+            android:id="@+id/buttonMoreResources"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Resources"
+
+
+            android:layout_gravity="center_horizontal"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:fontFamily="serif"
+
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

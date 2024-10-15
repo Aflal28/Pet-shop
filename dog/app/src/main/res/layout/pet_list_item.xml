@@ -1,0 +1,25 @@
+<!-- pet_list_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/petNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:padding="8dp"
+        android:text="Product Name"
+        android:textColor="#090909"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/petImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        /> <!-- Replace with a placeholder image or adjust as needed -->
+
+
+</LinearLayout>

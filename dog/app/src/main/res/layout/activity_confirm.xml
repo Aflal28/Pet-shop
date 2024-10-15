@@ -1,0 +1,105 @@
+<!-- res/layout/activity_caretaker_confirmation.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgoung"
+    android:padding="16dp">
+
+    <!-- Confirmation Message -->
+    <TextView
+        android:id="@+id/confirmationMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text=" "
+        android:textColor="#020035"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Pet Name -->
+
+    <TextView
+        android:id="@+id/petNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmationMessageTextView"
+        android:layout_marginTop="51dp"
+        android:fontFamily="serif"
+        android:text=" "
+        android:textColor="#020035"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Caretaker Name -->
+    <TextView
+        android:id="@+id/totalPaymentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/petNameTextView"
+        android:layout_marginTop="42dp"
+        android:fontFamily="serif"
+        android:text=""
+        android:textColor="#020035"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Contact Number -->
+    <EditText
+        android:id="@+id/caretakerNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/totalPaymentTextView"
+        android:layout_marginTop="43dp"
+        android:background="@null"
+        android:fontFamily="serif"
+        android:hint="Buyer Name"
+        android:padding="8dp"
+        android:textColorHint="#020035"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/contactNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/caretakerNameEditText"
+        android:layout_marginTop="41dp"
+        android:background="@null"
+        android:hint="Contact Number"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textColorHint="#020035" />
+
+    <!-- Confirm Button -->
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/contactNumberEditText"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:hint="Buyer Address"
+        android:padding="8dp"
+        android:textColorHint="#020035" />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="146dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/addressEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="125dp"
+        android:background="#161618"
+        android:fontFamily="serif"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:text="Buy"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

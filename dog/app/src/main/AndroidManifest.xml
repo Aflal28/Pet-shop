@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.dog"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserDetails"
+            android:exported="false" />
+        <activity
+            android:name=".user_detils"
+            android:exported="false" />
+        <activity
+            android:name=".buyer_details"
+            android:exported="false" />
+        <activity
+            android:name=".educational_content"
+            android:exported="false" />
+        <activity
+            android:name=".view_detail_seller"
+            android:exported="false" />
+        <activity
+            android:name=".view_confirm"
+            android:exported="false"
+            android:label="@string/title_activity_view_confirm"
+            android:theme="@style/Theme.dog" />
+        <activity
+            android:name=".seller_product_view"
+            android:exported="false" />
+        <activity
+            android:name=".confirm"
+            android:exported="false" />
+        <activity
+            android:name=".ManageDetails"
+            android:exported="false" />
+        <activity
+            android:name=".view_detail_buyer"
+            android:exported="false" />
+        <activity
+            android:name=".buyer_product_view"
+            android:exported="false" />
+        <activity
+            android:name=".view_buyer_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".buyer_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".buyer_home"
+            android:exported="false" />
+        <activity
+            android:name=".Add_product"
+            android:exported="false" />
+        <activity
+            android:name=".ViewFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Select_option"
+            android:exported="false" />
+        <activity
+            android:name=".buyer_register"
+            android:exported="false" />
+        <activity
+            android:name=".buyer_login"
+            android:exported="false" />
+        <activity
+            android:name=".Register_seller"
+            android:exported="false" />
+        <activity
+            android:name=".Home_seller"
+            android:exported="false" />
+        <activity
+            android:name=".seller_login"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

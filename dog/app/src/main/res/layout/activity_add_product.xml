@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextPetName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:fontFamily="serif"
+        android:hint="Product Name"
+        android:padding="8dp"
+        android:textColor="#0B0B0B"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#090909"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:fontFamily="serif"
+        android:hint="Description"
+        android:padding="8dp"
+        android:textColorHint="#0F0F0E"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:fontFamily="serif"
+        android:hint="Age"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColorHint="#0B0B0B"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerSex"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:entries="@array/gender_array"
+        android:hint="Select Sex"
+        android:padding="8dp" />
+
+
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:fontFamily="serif"
+        android:hint="Price"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColorHint="#0B0B0B"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/petImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/choice" />
+
+    <Button
+        android:id="@+id/buttonRedirect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="serif"
+        android:onClick="onRedirectClicked"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="8dp" />
+</LinearLayout>

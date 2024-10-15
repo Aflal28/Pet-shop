@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- User Name -->
+    <TextView
+        android:id="@+id/tv_user_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_user_name_label"
+        android:layout_marginStart="8dp"
+        android:textSize="18sp" />
+
+    <!-- User Email -->
+    <TextView
+        android:id="@+id/tv_user_email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user_name_label"
+        android:layout_marginTop="16dp"
+        android:text="Email:"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_user_email"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user_name"
+        android:layout_toRightOf="@id/tv_user_email_label"
+        android:layout_marginStart="8dp"
+        android:textSize="18sp" />
+
+    <!-- User Password -->
+    <TextView
+        android:id="@+id/tv_user_password_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user_email_label"
+        android:layout_marginTop="16dp"
+        android:text="Password:"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_user_password"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user_email"
+        android:layout_toRightOf="@id/tv_user_password_label"
+        android:layout_marginStart="8dp"
+        android:textSize="18sp"
+        android:password="true" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Back" />
+
+</RelativeLayout>

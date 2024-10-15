@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/petNameTextView"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/petDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/petNameTextView"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/petAgeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/petDescriptionTextView"
+        android:layout_marginBottom="16dp" />
+
+
+    <TextView
+        android:id="@+id/petSexTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/petAgeTextView"
+        android:layout_marginBottom="16dp" />
+
+
+    <TextView
+        android:id="@+id/petNoteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/petSexTextView"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/totalPaymentTextView"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="serif"
+        android:text="Total Payment"
+        android:textAlignment="center"
+        android:textColor="#020035"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/petImageView"
+        android:layout_width="185dp"
+        android:layout_height="167dp"
+        android:layout_below="@id/totalPaymentTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="121dp"
+        android:src="@drawable/puppy" />
+
+
+    <!-- Add more TextViews for displaying other details of the pet -->
+    <!-- Example: Vaccination details, habits, image display, etc. -->
+
+</RelativeLayout>

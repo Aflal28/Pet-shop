@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- ListView to display feedback details -->
+    <ListView
+        android:id="@+id/feedbackListView"
+        android:layout_width="379dp"
+        android:layout_height="707dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="14dp"
+        />
+</RelativeLayout>
+
